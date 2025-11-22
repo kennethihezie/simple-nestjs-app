@@ -1,6 +1,6 @@
 {
   "name": "dkp-common",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Docker Kubernetes Project (DKP). The package provide an easy to integrate redis and rabbitmq to your applications",
   "author": "Collins Ihezie",
   "license": "MIT",
@@ -19,6 +19,7 @@
     "@nestjs/core": "^11.0.1",
     "@nestjs/microservices": "^11.1.9",
     "@nestjs/platform-express": "^11.0.1",
+    "amqp-connection-manager": "^5.0.0",
     "amqplib": "^0.10.9",
     "cache-manager-ioredis-yet": "^2.1.2",
     "ioredis": "^5.8.2",
