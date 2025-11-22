@@ -1,6 +1,6 @@
 {
   "name": "dkp-common",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Docker Kubernetes Project (DKP). The package provide an easy to integrate redis and rabbitmq to your applications",
   "author": "Collins Ihezie",
   "license": "MIT",
