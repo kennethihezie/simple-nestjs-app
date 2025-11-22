@@ -1,6 +1,6 @@
 {
   "name": "dkp-common",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Docker Kubernetes Project (DKP). The package provide an easy to integrate redis and rabbitmq to your applications",
   "author": "Collins Ihezie",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "types": "dist/indes.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "deploy": "nest build && yarn publish",
     "format": "prettier --write \"src/**/*.ts\""
