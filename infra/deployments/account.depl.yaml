@@ -22,8 +22,6 @@ spec:
                 name: account-config
             - secretRef:
                 name: account-secret
-          ports:
-            - containerPort: 3001
           resources:
             requests:
               memory: "64Mi"
