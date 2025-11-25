@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: account-config
+  namespace: api
+
+data:
+  PORT: "3001"
+  JWT_EXPIRY: 1d
+  DB_URL: mongodb+srv://collinsihezie6:VKQBXEdoDkBzmBDb@cluster0.mdkgelm.mongodb.net/
+  DB_NAME: dkp-account
+  RMQ_URI: amqp://guest:guest@rabbitmq-srv:5672
+  REDIS_HOST: redis-srv
+  REDIS_PORT: "6379"

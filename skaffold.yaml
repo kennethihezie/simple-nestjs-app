@@ -1,0 +1,23 @@
+apiVersion: skaffold/v4beta6
+kind: Config
+metadata:
+  name: dkp-skaffold
+
+build:
+  artifacts:
+    - image: collins/auth
+      context: auth-service
+      docker:
+        dockerfile: Dockerfile
+
+    - image: collins/account
+      context: account-service
+      docker:
+        dockerfile: Dockerfile
+
+manifests:
+  rawYaml:
+    - ./infra/*
+deploy:
+  kubectl: {}
+  
