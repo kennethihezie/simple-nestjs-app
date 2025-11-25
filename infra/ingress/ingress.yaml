@@ -29,11 +29,3 @@ spec:
                 name: account-srv
                 port:
                   number: 3001
-
-          - pathType: Prefix
-            path: /api/v1/docs
-            backend:
-              service:
-                name: account-srv
-                port:
-                  number: 3001
